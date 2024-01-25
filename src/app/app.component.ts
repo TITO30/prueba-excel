@@ -22,7 +22,7 @@ export class AppComponent {
     console.log(extension);
 
     if (file.name != 'comisiones_masivas.xlsx') {
-      alert('Nombre de archivo no permitido');
+      alert('Nombre de arc');
       this.ExcelData = [];
       this.valor = '';
       return;
