@@ -37,6 +37,11 @@ export class AppComponent {
           workBook.Sheets[sheetNames[0]]
         );
 
+        this.ExcelData.map((element:any) => {
+          console.log(typeof element.cliente);
+          
+        })
+
         console.log(this.ExcelData);
       };
     }
